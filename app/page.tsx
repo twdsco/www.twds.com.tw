@@ -7,6 +7,8 @@ import {
   Container,
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
+import ProjectTracker from "@/components/ProjectTracker";
+
 interface ServiceItem {
   Icon: LucideIcon;
   title: string;
@@ -80,6 +82,13 @@ export default function Home() {
           </div>
         </section>
 
+        <section>
+          <SectionTitle>專案追蹤</SectionTitle>
+          <div className="text-left">
+            <ProjectTracker />
+          </div>
+        </section>
+        
         <section>
           <SectionTitle>經銷/合作</SectionTitle>
           <div className="flex justify-center items-center">
