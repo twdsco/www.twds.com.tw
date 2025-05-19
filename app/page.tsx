@@ -38,8 +38,8 @@ export default function Home() {
   ];
 
   const partners: PartnerItem[] = [
-    { img: "proxmox.png", url: "https://www.proxmox.com" },
-    { img: "unitech.svg", url: "https://www.unitech.com.tw/" },
+    { img: "imcloud.png", url: "https://imcloud.tw/" },
+    { img: "cymetrics.webp", url: "https://cymetrics.io/" },
   ];
   return (
     <div>
