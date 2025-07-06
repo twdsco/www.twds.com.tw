@@ -6,6 +6,7 @@ import { NextIntlClientProvider, hasLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
+import { GoogleTagManager } from "@next/third-parties/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -55,6 +56,7 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} className="scroll-smooth">
       <body className={inter.className}>
+        <GoogleTagManager gtmId="G-BB7BQL7123" />
         <NextIntlClientProvider messages={messages}>
           <Navigation />
           {children}
