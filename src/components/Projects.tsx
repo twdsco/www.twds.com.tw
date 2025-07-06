@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef, useState } from 'react';
-import { DollarSign, Heart } from 'lucide-react';
+import { Heart } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 
 interface Project {
@@ -133,8 +133,7 @@ const Projects = () => {
                 <div className="flex items-center justify-between mb-4">
                   <h3 className="text-xl text-gray-900 font-semibold">{project.name}</h3>
                   <div className="flex items-center gap-2">
-                    <DollarSign className="text-green-500" />
-                    <span className="text-sm text-gray-500 font-medium">
+                    <span className="text-sm text-gray-500 font-medium w-max">
                       {formatCurrency(project.currentAmount)} / {formatCurrency(project.monthlyGoal)}
                     </span>
                   </div>
@@ -154,9 +153,10 @@ const Projects = () => {
                   </div>
                 </div>
 
-                <div className="flex justify-between items-center">
-                  <span className="text-sm text-gray-500">{t('startDate')}: {project.startDate}</span>
-                  <div className="flex gap-2">
+                <div className="flex justify-evenly md:justify-between text-center md:text-left items-center flex-wrap gap-2">
+                  <span className="text-sm w-full md:w-auto 
+ text-gray-500">{t('startDate')}: {project.startDate}</span>
+                  <div className="flex gap-3">
                     {project.projectUrl && (
                       <button
                         className="flex items-center gap-1 px-4 py-2 bg-blue-500 text-white rounded-full hover:bg-blue-600 transition-colors"
