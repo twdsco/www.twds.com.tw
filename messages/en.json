@@ -1,0 +1,93 @@
+{
+  "Footer": {
+    "companyName": "Taiwan Digital Streaming Co.",
+    "companyDesc": "Your Digital Lifeline, Flowing Endlessly.\nRooted in the open-source community, driven by its spirit, dedicated to its growth.",
+    "quickLinks": "Quick Links",
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "followUs": "Follow Us",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "copyright": "All rights reserved",
+    "vat": "VAT: 83569021",
+    "contactEmail": "contact@twds.tw"
+  },
+  "Navigation": {
+    "companyName": "Taiwan Digital Streaming Co.",
+    "home": "Home",
+    "services": "Services",
+    "projects": "Projects",
+    "about": "About"
+  },
+  "Hero": {
+    "title": "Unceasing Flow of\nDigital Lifeblood",
+    "subtitle": "Building Digital Resilience, Driving Sustainable Operations.\nContinuously contributing to the open-source community, while protecting the information security domain.",
+    "ctaPrimary": "Explore Services"
+  },
+  "Services": {
+    "title": "Featured Services",
+    "subtitle": "Diverse services to meet your needs",
+    "services": {
+      "connectivity": {
+        "title": "Connectivity",
+        "description": "Provide network access services, from different network specifications, network environments, and provide the most suitable network access solutions."
+      },
+      "asSetup": {
+        "title": "Autonomous System Setup",
+        "description": "Help build your own autonomous system (AS), including setting up BGP routing, RPKI validation, and IRR filtering."
+      },
+      "cybersecurity": {
+        "title": "Cybersecurity",
+        "description": "From basic host scanning, web vulnerability scanning, to penetration testing, provide the most suitable cybersecurity solutions. Also provide cybersecurity consulting services, help you introduce cybersecurity protection mechanisms."
+      },
+      "compute": {
+        "title": "Compute",
+        "description": "Based on your goals, we can provide high-end GPU computing resources, such as high-end GPU computing physical machines."
+      },
+      "development": {
+        "title": "Development Services",
+        "description": "Provide development services, from different development specifications, development environments, and provide the most suitable development solutions."
+      },
+      "competition": {
+        "title": "Competition",
+        "description": "Provide competition computer network related equipment and technical support, and participate in challenge development. You can help you build a competition system, customize the competition system function based on your needs."
+      }
+    }
+  },
+  "Projects": {
+    "title": "Community Projects",
+    "subtitle": "Track our ongoing projects",
+    "fundingGoal": "Funding Goal (Monthly)",
+    "startDate": "Project Establised",
+    "projectSite": "Project Site",
+    "sponsor": "Sponsor",
+    "projects": {
+      "stuix": {
+        "name": "Student & Technology United Internet Exchanges",
+        "description": "The first community-driven IXP in Taiwan, aiming to lower the barrier to entry for network technology learning and provide opportunities for youths to participate in network operations."
+      },
+      "mirror": {
+        "name": "Open Source Mirror",
+        "description": "Provide stable and fast open source software mirror services, supporting developers and users in Taiwan. Providing Linux distribution, programming language package library, container image, etc. It is also one of two Fedora Tier 1 mirror site in Asia-Pacific region and Ubuntu country mirror in Taiwan."
+      },
+      "cache": {
+        "name": "Content Cache",
+        "description": "Provide Steam game and Apple content caching services. We are the first company in Taiwan to introduce Steam caching services, providing caching for game-related content for other telecom operators."
+      }
+    }
+  },
+  "About": {
+    "title": "About Our Mission",
+    "subtitle": "We believe in the power of innovation to solve complex challenges and create a better future. Our platform showcases cutting-edge ideas from around the world, connecting innovators with opportunities to make a real impact.",
+    "customers": "Customers",
+    "projects": "Projects",
+    "users": "Benefit Users",
+    "traffic": "Traffic",
+    "sponsors": "Sponsors"
+  },
+  "Metadata": {
+    "title": "Taiwan Digital Streaming Co. - Discover Innovation That Matters",
+    "description": "Exploring cutting-edge ideas that shape the future. Connect with innovators and discover groundbreaking solutions."
+  }
+} 
