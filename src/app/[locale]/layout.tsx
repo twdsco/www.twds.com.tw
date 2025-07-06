@@ -14,6 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const t = await getTranslations({ locale, namespace: 'Metadata' });
 
   return {
+    icons: [{ rel: "icon", url: "/logo/twds_circle.svg" }],
     title: t('title'),
     description: t('description'),
     keywords: "networking, security, open source, sustainability, technology, startups, future, Taiwan, sustainability, education, cybersecurity",
