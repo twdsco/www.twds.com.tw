@@ -16,6 +16,7 @@ export const metadata: Metadata = {
     description: t('description'),
     type: "website",
     locale: locale === 'zh-tw' ? 'zh_TW' : 'en_US',
+    images: "/img/og.png",
   },
   twitter: {
     card: "summary_large_image",

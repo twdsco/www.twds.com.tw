@@ -25,6 +25,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       description: t('description'),
       type: "website",
       locale: locale === 'zh-tw' ? 'zh_TW' : 'en_US',
+      images: "/img/og.png",
     },
     twitter: {
       card: "summary_large_image",
