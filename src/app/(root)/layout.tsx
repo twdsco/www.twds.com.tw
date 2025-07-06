@@ -16,6 +16,7 @@ export const metadata: Metadata = {
     description: t('description'),
     type: "website",
     locale: locale === 'zh-tw' ? 'zh_TW' : 'en_US',
+    url: "https://www.twds.com.tw/",
     images: "https://www.twds.com.tw/img/og.png",
   },
   twitter: {
