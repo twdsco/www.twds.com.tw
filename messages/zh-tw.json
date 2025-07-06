@@ -36,7 +36,7 @@
       },
       "asSetup": {
         "title": "自治系統建置",
-        "description": "協助建立自有自助系統（Autonomous System），協助設定如 BGP 路由、RPKI 驗證、IRR 過濾等。"
+        "description": "協助建立自有自治系統（Autonomous System），協助設定如 BGP 路由、RPKI 驗證、IRR 過濾等。"
       },
       "cybersecurity": {
         "title": "資安服務",
