@@ -58,8 +58,20 @@ const Navigation = () => {
             whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
           >
-            <Image src="/logo/twds_standard.svg" alt="Logo" className="w-10 h-10 hidden lg:block md:block" />
-            <Image src="/logo/twds_text_standard.svg" alt="Logo" className="w-40 h-10 lg:hidden md:hidden transform -translate-x-6" />
+            <Image 
+              src="/logo/twds_standard.svg" 
+              alt="Logo" 
+              width={0}
+              height={0}
+              className="w-10 h-10 hidden lg:block md:block" 
+            />
+            <Image 
+              src="/logo/twds_text_standard.svg" 
+              alt="Logo" 
+              width={0}
+              height={0}
+              className="w-40 h-10 lg:hidden md:hidden transform -translate-x-6" 
+            />
             <h2 className="text-xl hidden lg:block md:block font-bold text-brand-primary pl-2">{t('companyName')}</h2>
           </motion.div>
 
