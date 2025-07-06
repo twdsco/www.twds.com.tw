@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion'
 import { ArrowRight, Globe, RefreshCcw } from 'lucide-react'
 import { useTranslations } from 'next-intl'
+import Image from 'next/image'
 
 const Hero = () => {
   const t = useTranslations('Hero')
@@ -125,7 +126,7 @@ const Hero = () => {
                     animate={{ scale: [1.2, 1.5, 1.2] }}
                     transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }}
                   />
-                  <img 
+                  <Image 
                     src="/logo/twds_circle.svg" 
                     alt="Logo" 
                     width={128} 
