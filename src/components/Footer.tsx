@@ -64,7 +64,7 @@ const Footer = () => {
               <li>
                 <button
                   onClick={() => scrollToSection('#home')}
-                  className="text-gray-300 hover:text-white transition-colors duration-200 text-left"
+                  className="text-gray-300 hover:text-brand-primary transition-colors duration-200 text-left cursor-pointer"
                 >
                   {t('home')}
                 </button>
@@ -72,15 +72,23 @@ const Footer = () => {
               <li>
                 <button
                   onClick={() => scrollToSection('#services')}
-                  className="text-gray-300 hover:text-white transition-colors duration-200 text-left"
+                  className="text-gray-300 hover:text-brand-primary transition-colors duration-200 text-left cursor-pointer"
                 >
                   {t('services')}
                 </button>
               </li>
               <li>
                 <button
+                  onClick={() => scrollToSection('#projects')}
+                  className="text-gray-300 hover:text-brand-primary transition-colors duration-200 text-left cursor-pointer"
+                >
+                  {t('projects')}
+                </button>
+              </li>
+              <li>
+                <button
                   onClick={() => scrollToSection('#about')}
-                  className="text-gray-300 hover:text-white transition-colors duration-200 text-left"
+                  className="text-gray-300 hover:text-brand-primary transition-colors duration-200 text-left cursor-pointer"
                 >
                   {t('about')}
                 </button>
@@ -96,7 +104,7 @@ const Footer = () => {
                 href="https://linkedin.com/company/twdsco"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-300 hover:text-white transition-colors duration-200"
+                className="text-gray-300 hover:text-brand-primary transition-colors duration-200"
               >
                 {t('linkedin')}
               </a>
@@ -104,7 +112,7 @@ const Footer = () => {
                 href="https://github.com/twdsco"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-300 hover:text-white transition-colors duration-200"
+                className="text-gray-300 hover:text-brand-primary transition-colors duration-200"
               >
                 {t('github')}
               </a>
