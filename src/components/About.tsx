@@ -80,7 +80,7 @@ const About = () => {
                   <div className={`inline-flex items-center justify-center w-12 h-12 rounded-lg bg-white shadow-sm mb-4 ${stat.color}`}>
                     <stat.icon size={24} />
                   </div>
-                  <div className={`text-3xl font-bold ${stat.color} mb-2`}>
+                  <div className={`text-2xl sm:text-3xl font-bold ${stat.color} mb-2`}>
                     {stat.value}
                   </div>
                   <div className="text-gray-600 font-medium">
